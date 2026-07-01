@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR6i0288/v1
+canonical_location: https://kanripo.org/bkk/KR6i0288/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 諸法無行經
+  identifiers:
+    alt_id:
+    - T15n0650
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0650.xml
+    old_id: T15n0650
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0288_000.yaml, hash: 'sha256:646a3b833ca9082f8d4963a155bb2fb100569b116f981333f80bf2975958904e'}
+  - {seq: 1, filename: KR6i0288_001.yaml, hash: 'sha256:db547b625d6dcac444d10b0c0f4c8b88a7836e867c8990fc04212a97ed6604b3'}
+  - {seq: 2, filename: KR6i0288_002.yaml, hash: 'sha256:181246eaf82e5056e371ef4705de000d19e6132cd3e5ff07d7f97154b410968b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0288_001.markers.yaml, hash: 'sha256:e4ba4fc67782c9b7b5f61adfbf57c0f8708ee6313998bafb82da44bfb096631f'}
+  - {seq: 2, role: markers, filename: assets/KR6i0288_002.markers.yaml, hash: 'sha256:a4bdb088140fa6b08e5524ff8a5b8407d2fc33f28139f61f10bf77a535451eb9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0288_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7979
+  label: 諸法無行經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0288_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 6458
+  label: 諸法無行經卷下
+  type: juan
+  level: 1
+hash: sha256:b49108908bb7201cf8b6e9749973b3245844791f1063cac9026d638038f166a0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

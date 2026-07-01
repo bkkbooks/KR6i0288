@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0288/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 諸法無行經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0650.xml
+    old_id: T15n0650
+hash: sha256:646a3b833ca9082f8d4963a155bb2fb100569b116f981333f80bf2975958904e
